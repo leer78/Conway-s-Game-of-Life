@@ -23,5 +23,8 @@ next state according to the above rules, we have taken one Conway step.
 To play the game, I've included several files. To change the starting inputs, alter the initial conditions where in "gameinput.txt" the first line represents the height of the board, the second line represents the width of the board, and the third line is a 2D representation of a 3D board. The 1s indicate live cells, and the 0s represent dead ones. 
 
 ![image](https://user-images.githubusercontent.com/74937113/147858753-ed28aaee-74af-408a-af0a-be884dc6f0f2.png)
+
 ....
+
+
 ![image](https://user-images.githubusercontent.com/74937113/147858756-ae13b550-8753-429e-b42f-c427f26059eb.png)
