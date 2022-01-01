@@ -5,26 +5,25 @@ After stumbling upon some interesting Youtube videos regarding this cell game, I
 
 In the Game of Life, a few simple rules regarding changes of state result in a mathematical system that is
 unpredictable in it’s results.
-Some very cool configurations are possible as well https://www.youtube.
-com/watch?v=R9Plq-D1gEk.
+Some very cool configurations are possible as well https://www.youtube.com/watch?v=R9Plq-D1gEk.
 The Rules of the Game of Life are as follows:
 
-  • All cells in the game are either alive or dead.
-  
-  • The cells are arranged in a regular grid, in much the same way as pixels in a screen (completely
-  
-  co-incidentally as it turns out).
-  
-  • If a living cell has fewer than two living neighbours, that cell dies from under-population.
-  
-  • If a living cell has greater than three living neighbours, that cell dies from overpopulation.
-  
-  • So, if a living cell has exactly two or three living neighbours, that cell remains alive.
-  
-  • If a dead cell has exactly three living neighbours, it becomes alive (think reproduction, not zombies).
-  
-  • A cell is adjacent if (and only if) it is one cell to the left, right, up, down, or diagonally in any
-direction. So, each cell has eight neighbour cells.
+    • All cells in the game are either alive or dead.
+
+    • The cells are arranged in a regular grid, in much the same way as pixels in a screen (completely
+
+    co-incidentally as it turns out).
+
+    • If a living cell has fewer than two living neighbours, that cell dies from under-population.
+
+    • If a living cell has greater than three living neighbours, that cell dies from overpopulation.
+
+    • So, if a living cell has exactly two or three living neighbours, that cell remains alive.
+
+    • If a dead cell has exactly three living neighbours, it becomes alive (think reproduction, not zombies).
+
+    • A cell is adjacent if (and only if) it is one cell to the left, right, up, down, or diagonally in any
+  direction. So, each cell has eight neighbour cells.
 
 The state of the board progresses according to the above rules. When all cells on the board achieve their
 next state according to the above rules, we have taken one Conway step.
