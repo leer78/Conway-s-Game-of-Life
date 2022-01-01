@@ -22,8 +22,7 @@ The Rules of the Game of Life are as follows:
 
     • If a dead cell has exactly three living neighbours, it becomes alive (think reproduction, not zombies).
 
-    • A cell is adjacent if (and only if) it is one cell to the left, right, up, down, or diagonally in any
-  direction. So, each cell has eight neighbour cells.
+    • A cell is adjacent if (and only if) it is one cell to the left, right, up, down, or diagonally in any direction. So, each cell has eight neighbour cells.
 
 The state of the board progresses according to the above rules. When all cells on the board achieve their
 next state according to the above rules, we have taken one Conway step.
